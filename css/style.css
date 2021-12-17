@@ -1,0 +1,158 @@
+@import url("../css/reset.css");
+@import url("../css/slide.css");
+@import url("../css/wrap.css");
+@import url("../css/footer.css");
+
+body {
+    max-width: 1920px;
+    max-height: 1020px;
+} 
+
+#header {
+    top: 0;
+    height: 110px;
+}
+
+#top_menu {
+    position: relative;
+    top: 17%;
+}
+
+#inner {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -10px;
+    font-size: 16px;
+}
+
+#inner > * {
+    width: 34%;
+}
+
+#inner  .top_menuBar > ul {
+    display: flex;
+}
+
+#inner  .top_menuBar  li {
+    width: 20%;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+#inner .top_logo {
+    text-align: center;
+    width: 21%;
+}
+
+#inner .top_logo .logo {
+    width: 250px;
+}
+
+
+
+
+
+#inner  .top_menuBen > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#inner  .top_menuBen  li {
+    width: 21%;
+    text-align: end;
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+
+#wrap {
+    min-height: 880px;
+    margin-top: 25px;
+}
+
+.content{
+    
+}
+
+.contentName span {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contentBox {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.contentBox a {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.contentBox img {
+    border-radius: 3%;
+    width: 390px;
+}
+
+.contentBox :nth-child(1) img {
+    background-color: #713d63;
+}
+.contentBox :nth-child(2) img {
+    background-color: #fef49d;
+}
+.contentBox :nth-child(3) img {
+    background-color: #d1f160;
+}
+.contentBox :nth-child(4) img {
+    background-color: #9dddff;
+}
+.contentBox :nth-child(5) img {
+    background-color: #010080;
+}
+.contentBox :nth-child(6) img {
+    background-color: #8a2be1;
+}
+
+.contentMBox {
+    height: 523px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.contentBox :hover .memberTextBox {
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    height: 70px;
+    color: white;
+    font-size: 25px;
+}
+
+
+#footer {
+    height: 100px;
+}
